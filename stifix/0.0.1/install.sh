@@ -11,16 +11,13 @@ gem install jekyll bundler jekyll-minifier jekyll-sitemap
 # Create New Site
 mkdir -p ~/project/ruby/
 cd ~/project/ruby/
-git clone https://github.com/andrewbanchich/highlights-jekyll-theme
-rm -rf ~/project/ruby/stifix
-mv highlights-jekyll-theme stifix
 
 # install app
 rm -rf ~/project/ruby/stifix/README.md
 rm -rf ~/project/ruby/stifix/_includes/*
 rm -rf ~/project/ruby/stifix/_layouts/*
 rm -rf ~/project/ruby/stifix/asseets/*
-rsync -zavr ~/Cloud/Dropbox/Programming/Ruby/Jekyll/stifix/0.0.0/ ~/project/ruby/stifix/
+rsync -zavr ~/Cloud/Dropbox/Programming/Ruby/Jekyll/stifix/0.0.1/ ~/project/ruby/stifix/
 
 # Serve Site
 cd ~/project/ruby/stifix

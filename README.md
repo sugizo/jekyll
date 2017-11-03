@@ -1,6 +1,6 @@
 # Clone the repository
 	cd ~/git
-	git clone https://github.com/sugizo/jekyll
+	git clone https://github.com/sugizo/jekyll_build
 
 # Create File
 	cd jekyll
